@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,600;0,700;1,500;1,800&family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1a2d;
+  font-family: Outfit;
+}
+.container {
+  padding: 20px;
+  width: 350px;
+  height: 600px;
+  background-color: #15273f;
+  border-radius: 20px;
+  box-shadow: 50px darkblue;
+}
+.nft-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.178);
+}
+.eth-icon {
+  color: #00818b;
+}
+.price {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 50%;
+}
+.about {
+  border-top: rgba(255, 255, 255, 0.178) solid 1px;
+  display: flex;
+}
+.avatar {
+  padding: 15px;
+  width: 10%;
+  border-radius: 1px, solid, grey;
+}
+.name {
+  color: white;
+}
+h2{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    
+}
+h2 span{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
